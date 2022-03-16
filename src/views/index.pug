@@ -4,5 +4,9 @@ html
   body
     h1= message
 
-    input(id='hello', type='checkbox', name='agreement', checked=true)
-    label(for='hello')= 'hello'
+    each val, index in list
+      span
+        input(id= index, type='checkbox', checked=val.isDone)
+        label(for= index)= val.description
+      br
+      
