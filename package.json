@@ -1,0 +1,23 @@
+{
+  "name": "ssr-todo",
+  "version": "1.0.0",
+  "description": "ToDo app rendered on the server with Node",
+  "scripts": {
+    "start": "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/frisos-todo-apps/node-ssr-todo.git"
+  },
+  "author": "Friso Denijs",
+  "bugs": {
+    "url": "https://github.com/frisos-todo-apps/node-ssr-todo/issues"
+  },
+  "homepage": "https://github.com/frisos-todo-apps/node-ssr-todo#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
