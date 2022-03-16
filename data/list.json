@@ -1,0 +1,1 @@
+[{"isDone":true,"description":"setup project"},{"isDone":true,"description":"mock todo list"},{"isDone":false,"description":"create pug page"},{"isDone":false,"description":"use express for POST and put"},{"isDone":false,"description":"save list to and get from file"},{"isDone":false,"description":"prettify with bootstrap"}]
